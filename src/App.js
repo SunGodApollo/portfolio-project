@@ -2,11 +2,11 @@ import React, {useState} from "react"
 import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
-import ProjectIndex from "./pages/ProjectIndex"
-import ProjectShow from "./pages/ProjectShow"
+import Projects from "./pages/Projects"
 import Footer from "./components/Footer"
 import NotFound from "./pages/NotFound"
 import "./App.css"
+import "./index.css"
 
 
 
@@ -21,11 +21,12 @@ const App = () => {
   return(
     <div className="gradient-background">
       <Navbar />
-      
+     
+
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projectindex" element={<ProjectIndex projects={projects}/>} />
-        <Route path="/projectshow" element={<ProjectShow />} />
+        <Route path="/projects" element={<Projects projects={projects}/>} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
 

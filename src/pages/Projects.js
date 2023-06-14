@@ -2,7 +2,7 @@
 
 
 
-const ProjectIndex =  ({ projects }) => {
+const Projects =  ({ projects }) => {
 
 
 
@@ -21,4 +21,4 @@ const ProjectIndex =  ({ projects }) => {
     )
 }
 
-export default ProjectIndex
+export default Projects
