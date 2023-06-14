@@ -1,4 +1,4 @@
-
+import "./FooterStyles.css"
 
 
 const Footer = () => {
@@ -6,11 +6,11 @@ const Footer = () => {
 
     return (
         <>
-                <footer className='bg-black backdrop-blur bg-opacity-75 text-white text-center p-2 text-sm fixed bottom-0 left-0 right-0'>
-                    <span>
+            <footer className='bg-black/50 backdrop-blur  text-white text-center p-2 text-sm fixed bottom-0 left-0 right-0'>
+                <span>
                     Apolonio Ortiz | 2023
-                    </span>
-                </footer>
+                </span>
+            </footer>
         </>
     )
 }

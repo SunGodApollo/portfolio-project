@@ -1,19 +1,34 @@
 import { Link } from "react-router-dom"
+import { FaBars, FaTimes } from "react-icons/fa"
+import "./NavbarStylings.css"
+import React, { useState } from "react"
 
 
 const Navbar = () => {
 
+    
 
     return (
-        <nav className='bg-black/50 backdrop-blur textx-2xl font-medium'>
-            <ul className='flex gap-12'>
+        <nav className='bg-black/50 backdrop-blur fixed top-0 left-0 w-full'>
+            <div className="header">
                 <Link to="/"> 
-                    <li>Home</li>
+                    <h1>Portfolio</h1>
                 </Link>
-                <Link to="/ProjectIndex"> 
-                    <li>Projects</li>
-                </Link>
-            </ul>
+                <ul className="nav-menu">
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/projects">Projects</Link>
+                    </li>                    
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </div>
 
         </nav>
     )
