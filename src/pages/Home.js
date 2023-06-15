@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="flex items-center justify-center p-20">
+            <div className="flex items-center justify-center p-10">
                 <img src={BlackAndWhiteLogo} alt='logo'/>
             </div>
             <div className="flex items-center justify-center p-10 " >

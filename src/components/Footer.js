@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className='bg-black/50 backdrop-blur'>
+            <footer className='bg-black/50 backdrop-blur  bottom-0 left-0 w-full'>
                 <div className="footer">
                     <div className="footer-container">
                         <div className="left">

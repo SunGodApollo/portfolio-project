@@ -1,23 +1,20 @@
 
+import HeroSection from "../components/HeroSection.js"
+import Work from "../components/Work.js"
 
 
-
-const Projects =  ({ projects }) => {
+const Projects = () => {
 
 
 
     return (
+        <div>
+            <HeroSection heading="PROJECTS." text="Some of my most recent work."/>
+            <Work />
+        </div>
 
-        <main>
-            {projects.map((project, index) => {
-                return (
-                    <>
-                        <p>project.name</p>
-                        <p>project.picture</p>
-                    </>
-                )
-            })}
-        </main>
+
+
     )
 }
 

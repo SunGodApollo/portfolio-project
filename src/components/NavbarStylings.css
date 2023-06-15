@@ -6,6 +6,14 @@
 
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
 .nav-menu {
     display: flex;
 }

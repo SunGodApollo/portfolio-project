@@ -1,6 +1,8 @@
 import React, {useState} from "react"
 import { Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import Footer from "./components/Footer"
@@ -26,7 +28,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects projects={projects}/>} />
-
+        <Route path="/about" element={<About about={About}/>} />
+        <Route path="/contact" element={<Contact contact={Contact}/>} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

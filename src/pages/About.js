@@ -1,15 +1,18 @@
 
+import HeroSection from "../components/HeroSection.js"
 
-const About =  () => {
+
+const About = () => {
 
 
 
     return (
-        <div className="gradient-background">
-            <>
-                <title>Schpeel about me!</title>
-            </>
+        <div>
+            <HeroSection heading="ABOUT." text="I'm a friendly full-stack developer."/>
         </div>
+
+
+
     )
 }
 
