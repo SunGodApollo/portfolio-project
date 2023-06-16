@@ -1,0 +1,18 @@
+
+
+.skill-bar {
+    width: 100%;
+    background-color: #f2f2f260;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .skill-bar-progress {
+    background-color: #5d5d5d;
+    height: 8px;
+    border-radius: 4px;
+  }
+  
+  .skill-bar-label {
+    margin-top: 4px;
+  }
