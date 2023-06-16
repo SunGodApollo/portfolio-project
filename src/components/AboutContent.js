@@ -8,7 +8,7 @@ const AboutContent = () => {
         <div className="about">
             <div className="left">
                 <h1>Who Am I?</h1>
-                <p>I'm a deez nutz developer. I create responsive and secure websites for deez nutz</p>
+                <p>Hi! I'm a full-stack developer. I enjoy working on projects that will challenge me and mentally stimulate me. I love working with others as well! If you want to work together, or if you have any questions, please click the "Contact" button! </p>
                 <Link to="/contact" className="btn">
                    Contact
                 </Link>
