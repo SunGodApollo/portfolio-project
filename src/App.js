@@ -17,7 +17,7 @@ import "./index.css"
 
 const App = () => {
 
-  const [projects, setProjects] = useState([])
+
 
 
   return(
@@ -27,7 +27,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects projects={projects}/>} />
+        <Route path="/projects" element={<Projects projects={Projects}/>} />
         <Route path="/about" element={<About about={About}/>} />
         <Route path="/contact" element={<Contact contact={Contact}/>} />
         <Route path="*" element={<NotFound />} />
