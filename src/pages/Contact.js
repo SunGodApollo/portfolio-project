@@ -7,7 +7,7 @@ const Contact = () => {
 
     return (
         <div>
-            <HeroSection heading="CONTACT ME." text="Some of my contact stuff"/>
+            <HeroSection heading="CONTACT ME." text="Want to work together? Something on your mind? Send me an email! I'll be sure to reply in as little as 1 hour."/>
             <Form />    
         </div>
 

@@ -1,73 +1,42 @@
-import { useState } from "react"
+import { useState, useRef } from "react"
+import emailjs from "@emailjs/browser"
 import "./FormStyles.css"
 
 
 
 const Form = () => {
 
+        const form = useRef();
+      
+        const sendEmail = (e) => {
+          e.preventDefault();
 
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    })
-    
-    const handleInputChange = (event) => {
-        const {name, value} = event.target
-        setFormData((prevFormData) => ({
-            ...prevFormData,
-            [name]: value
-        }))
-    }
-
-    const handleSubmit = (event) => {
-        event.preventDefault()
-        console.log(formData)
-        setFormData({
-            name: '',
-            email: '',
-            subject: '',
-            message: ''
-        })
-    }
-
-
+          emailjs.sendForm(
+            'service_vbicsq1', 
+            'template_7ltqd3a', 
+            form.current, 
+            'PUoxndt__jeVjjCJO')
+          .then((result) => {
+              console.log(result.text);
+          }, 
+            (error) => {
+              console.log(error.text);
+          });
+      };    
 
     return (
         <div className= "form">
-            <form onSubmit={handleSubmit}>
-            <label>Your Name</label>
-            <input
-            type="text"
-            name="name"
-            value={formData.name}
-            onChange={handleInputChange}
-            />
-            <label>Email</label>
-            <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleInputChange}
-            />
-            <label>Subject</label>
-            <input
-            type="text"
-            name="subject"
-            value={formData.subject}
-            onChange={handleInputChange}
-            />
-            <label>Message</label>
-            <textarea
-            rows="6"
-            name="message"
-            value={formData.message}
-            onChange={handleInputChange}
-            placeholder="Type your message here"
-            />
-            <button type="submit" className="btn">Submit</button>
+            <form ref={form} onSubmit={sendEmail}>
+                <label>Your Name</label>
+                <input type="text" name="user_name" />
+                <label>Your Email</label>
+                <input type="email" name="user_email" />
+                <label>Message</label>
+                <textarea name="message" />
+                <button type="submit" className="btn">Submit</button>
             </form>
+
+
         </div>
     )
 }

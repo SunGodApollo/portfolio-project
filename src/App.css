@@ -18,13 +18,11 @@
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Abel', sans-serif;;
-  }
+@font-face {
+  font-family: 'Abel-Regular.ttf';
+  src: url("./fonts/Abel-Regular.ttf")
+
+}
   
 
   h1, h4, p, a {

@@ -20,25 +20,28 @@ const Footer = () => {
                             <div className="phone">
                                 <h4>
                                 <FaPhone size={30} style={{ color: "#fff", marginRight: "2rem"}} />
-                                <p>1-235-684-6429</p>
+                                <p>360-515-6293</p>
                                 </h4>
                             </div>
                             <div className="email">
                                 <h4>
                                 <FaMailBulk size={30} style={{ color: "#fff", marginRight: "2rem"}} />
-                                <p>deeznutz@gmail.com</p>
+                                <p>apolonio.d.ortiz@gmail.com</p>
                                 </h4>
                             </div>
                         </div>
 
 
                         <div className="right">
-                            <h4>About the company</h4>
-                            <p> This is me, Apolonio Ortiz. CEO & Founder of Apolonio Tech. I enjoy discussing new projects and overcoming challenges.</p>
+                            <h4>About the Company</h4>
+                            <p> Apolonio Ortiz. CEO & Founder of ApoloCorp. I enjoy discussing new projects and overcoming challenges.</p>
                             <div className="social">
-                            <FaLinkedin size={40} style={{ color: "#fff", marginRight: "1rem"}} />
-                            <FaGithub size={40} style={{ color: "#fff", marginRight: "1rem"}} />
-
+                                <a href="https://www.linkedin.com/in/apolonioortiz/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin size={40} style={{ color: "#fff", marginRight: "1rem" }} />
+                                </a>
+                                <a href="https://github.com/SunGodApollo" target="_blank" rel="noopener noreferrer">
+                                <FaGithub size={40} style={{ color: "#fff", marginRight: "1rem" }} />
+                                </a>
                             </div>
                         </div>
                     </div>

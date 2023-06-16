@@ -9,7 +9,7 @@ const Projects = () => {
 
     return (
         <div>
-            <HeroSection heading="PROJECTS." text="Some of my most recent work."/>
+            <HeroSection heading="PROJECTS." text="Some of my most recent work. If you have any questions, send me a message!"/>
             <Work />
         </div>
 
