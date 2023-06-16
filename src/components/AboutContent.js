@@ -1,6 +1,7 @@
 import "./AboutContentStyles.css"
 import { Link } from "react-router-dom"
 import defimage from "../assets/defimage.jpg"
+import SkillBar from "./SkillBar"
 
 const AboutContent = () => {
 
@@ -16,6 +17,7 @@ const AboutContent = () => {
 
 
             <div className="right">
+                <SkillBar />
                 <div className="img-container">
                     <div className="img-stack top">
                         <img src={defimage} className="img" alt="true" />
