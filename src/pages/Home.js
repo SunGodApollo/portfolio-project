@@ -1,6 +1,7 @@
 import graySuit from "../assets/graySuit.PNG"
 import BlackAndWhiteLogo from "../assets/BlackAndWhiteLogo.png"
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 
 
 
@@ -8,7 +9,11 @@ const Home = () => {
 
 
     return (
-        <>
+        <motion.div 
+        initial={{ width:0 }}
+        animate={{ width: "100%" }}
+        exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
+        >
             <div className="flex items-center justify-center p-10">
                 <img src={BlackAndWhiteLogo} alt='logo'/>
             </div>
@@ -27,9 +32,7 @@ const Home = () => {
                 <Link to="/contact" className="btn-light">Contact</Link>
             </div>
 
-
-
-        </>
+        </motion.div>
     )
 }
 
