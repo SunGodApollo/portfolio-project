@@ -12,7 +12,7 @@ const Contact = () => {
         animate={{ width: "100%" }}
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
         >
-            <HeroSection heading="CONTACT ME." text="Want to work together? Something on your mind? Send me an email! I'll be sure to reply in as little as 1 hour."/>
+            <HeroSection heading="CONTACT ME." text="Want to work together? Something on your mind? Send me an email! I'll try to reply as soon as I am able."/>
             <Form />    
         </motion.div>
 

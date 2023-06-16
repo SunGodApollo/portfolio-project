@@ -28,7 +28,7 @@ const Form = () => {
             setMessageSent(false)
         }, 5000)
         }, 
-        
+
         (error) => {
             console.log(error.text);
         });
@@ -38,7 +38,7 @@ const Form = () => {
     return (
         <div className= "form">
             <div className="project-heading">
-                <h1>Lets get in touch!</h1>
+                <h1>Send me a message.</h1>
             </div>
 
             {isMessageSent && <p className="message-sent">Message sent! Please allow up to 2 hours for a response.</p>}
