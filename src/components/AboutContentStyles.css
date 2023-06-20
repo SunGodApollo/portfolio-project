@@ -33,10 +33,13 @@
     align-items: center;
     text-align: center;
     padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    z-index: 0;
 }
 
 .right .img {
-    max-width: 90%;
+    max-width: 100%;
     border: 1px solid #333;
 }
 
