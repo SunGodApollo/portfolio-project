@@ -5,6 +5,7 @@
     background-color: #f2f2f260;
     border-radius: 4px;
     padding: 10px;
+    
   }
   
   .skill-bar-progress {
@@ -15,4 +16,5 @@
   
   .skill-bar-label {
     margin-top: 4px;
+    margin-bottom: 4px;
   }
