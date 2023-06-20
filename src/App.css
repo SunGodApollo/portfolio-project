@@ -27,10 +27,18 @@
   }
   
 
-  h1, h4, p, a {
+  h1, h4,  a {
     color: #fff;
     text-decoration: none;
-    padding: 0.2rem
+    padding: 0.2rem;
+    font-size: 1.8rem;
+  }
+
+  p {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.2rem;
+
   }
   
   a:hover {
