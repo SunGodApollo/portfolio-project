@@ -24,7 +24,7 @@ const Home = () => {
             
             <div className="container mx-auto px-4 text-center p-10">
                 <p>
-                    Hello, my name is Apolonio, and I'm a full-stack software engineer. Thank you for visiting! Please click to learn more about me and my work. Want to work together? Click on "Contact" and lets get started!
+                    Hello, my name is Apolonio, and I'm a full-stack software engineer. Thank you for visiting! Please click to learn more about me and my work. Want to work together? Click on "Contact" and let's get started!
                 </p>
             </div>
             <div className="flex items-center justify-center pb-20">

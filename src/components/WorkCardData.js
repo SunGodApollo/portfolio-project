@@ -23,14 +23,14 @@ const ProjectCardData = [
     {
         imgsrc: apartmentApp,
         title: "Apartment App",
-        text: "Application where a user may search apartments. If the user wishes, they can create an account, and add apartments to their list. The user may also add, delete, or modify apartments. Created using React for the front end and Ruby/Rails for the backend.",
+        text: "Application where a user may search apartments. If the user wishes, they can create an account, and add apartments to their list. The user may also add, delete, or modify apartments. Created using React for the front end and Ruby/Rails for the backend. Currently under maintenance.",
         view: "url of live site here",
         source: "https://github.com/learn-academy-2023-bravo/apartment-app-frontend-chinese-spy-balloon"
     },
     {
         imgsrc: treasureHunt,
         title: "Treasure Hunt",
-        text: "A fun game-like application using react. A user has to pick a tile at random, if the user finds the gem, the user wins! If the user finds the bomb, however, the user loses.",
+        text: "A fun game-like application using React. A user has to pick a tile at random, if the user finds the gem, the user wins! If the user finds the bomb, however, the user loses.",
         view: "url of live site here",
         source: "https://github.com/SunGodApollo/apolonio-treasure-hunt"
     },

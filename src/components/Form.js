@@ -26,7 +26,7 @@ const Form = () => {
 
         setTimeout(() => {
             setMessageSent(false)
-        }, 5000)
+        }, 10000)
         }, 
 
         (error) => {
