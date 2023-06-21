@@ -4,9 +4,13 @@ const SkillBar = () => {
 
     const skills = [
 
-        { name: 'HTML', percentage: 80 },
-        { name: 'CSS', percentage: 75 },
         { name: 'JavaScript', percentage: 90 },
+        { name: 'CSS', percentage: 75 },
+        { name: 'HTML', percentage: 90 },
+        { name: 'Ruby', percentage: 80 },
+        { name: 'Ruby on Rails', percentage: 80 },
+        { name: 'React', percentage: 85 },
+        { name: 'SQL', percentage: 70 },
     ]
 
 
