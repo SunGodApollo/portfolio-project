@@ -20,7 +20,7 @@ const Footer = () => {
                             <div className="phone">
                                 <h4>
                                 <FaPhone size={30} style={{ color: "#fff", marginRight: "2rem"}} />
-                                <p>360-515-6293</p>
+                                <p>Email for information.</p>
                                 </h4>
                             </div>
                             <div className="email">
