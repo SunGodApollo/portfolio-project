@@ -34,7 +34,7 @@ const Footer = () => {
 
                         <div className="right">
                             <h4>About the Company</h4>
-                            <p> Apolonio Ortiz | 2023. CEO & Founder of ApoloCorp. All rights reserved.</p>
+                            <p> Apolonio Ortiz | 2023. All rights reserved.</p>
                             <div className="social">
                                 <a href="https://www.linkedin.com/in/apolonioortiz/" target="_blank" rel="noopener noreferrer">
                                 <FaLinkedin size={40} style={{ color: "#fff", marginRight: "1rem" }} />
