@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import myselfBlack from "../assets/myselfBlack.PNG"
 import moreKoding from "../assets/moreKoding.jpg"
 import SkillBar from "./SkillBar"
+import ApolonioOrtizResumeVersion4 from "../assets/ApolonioOrtizResumeVersion4.pdf"
 
 const AboutContent = () => {
 
@@ -14,6 +15,9 @@ const AboutContent = () => {
                 <Link to="/contact" className="btn">
                    Contact
                 </Link>
+                <a href={ApolonioOrtizResumeVersion4} download={ApolonioOrtizResumeVersion4} className="btn">
+                    Download Resume
+                </a>
             </div>
 
 

@@ -11,8 +11,8 @@
 .about .left {
     text-align: center;
     margin: auto;
-    padding: 1rem;
-    max-width: 350px;
+    padding-left: 2rem;
+    max-width: 450px;
 }
 
 .about .left p {
@@ -23,6 +23,7 @@
 
 .about .right {
     max-width: 700px;
+    margin: auto
 
 }
 
@@ -49,7 +50,7 @@
 .right .top {
     grid-column: 1 / span 8;
     grid-row: 1;
-    padding-top: 20%;
+    padding-top: 10%;
     z-index: 6;
 }
 
