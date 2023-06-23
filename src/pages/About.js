@@ -12,7 +12,7 @@ const About = () => {
         animate={{ width: "100%" }}
         exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}
         >
-            <HeroSection heading="ABOUT." text="I'm a friendly full-stack developer. I enjoy working on projects in my spare time. I come equipped with a variety of skills. Check them out below!"/>
+            <HeroSection heading="ABOUT." text="I'm a friendly and easy-to-work-with full-stack developer, and enjoy working on projects in my spare time. I come equipped with a variety of skills. Check them out below!"/>
             <AboutContent />
 
         </motion.div>
