@@ -25,10 +25,10 @@
 
 .heading {
 background-color: rgb(0,0,0); /* Fallback color */
-background-color: rgba(114, 114, 114, 0.8); /* Black w/opacity/see-through */
+background-color: rgba(114, 114, 114, 0.559); /* Black w/opacity/see-through */
 color: white;
 font-weight: bold;
-
+backdrop-filter: blur(6px);
 position: absolute;
 top: 40%;
 left: 50%;
@@ -37,6 +37,8 @@ z-index: 2;
 width: 80%;
 padding: 20px;
 text-align: center;
+border-radius: 10px;
+box-shadow: 0px 0px 20px 0 rgba(255, 255, 255, 0.646);
 }
 
 @media screen and (max-width: 640px) {

@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className='bg-black/50 backdrop-blur fixed top-0 left-0 w-full z-3'>
+        <nav className=''>
             <div className="header">
                 <Link to="/" onClick={closeNavbar}> 
                     <h1>Portfolio</h1>

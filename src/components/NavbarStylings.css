@@ -3,7 +3,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0.621);
+    backdrop-filter: blur(6px);
 }
 
 
@@ -13,8 +17,7 @@
 }
 
 .nav-menu li {
-    padding: 0 1rem
-
+    padding: 0 1rem;
 }
 
 .nav-menu li a{
@@ -24,6 +27,8 @@
 
 .hamburger {
     display: none;
+    z-index: 9999;
+    padding-right: 1rem;
 
 }
 
@@ -38,7 +43,6 @@
         position: absolute;
         top: 0;
         left: -100%;
-        z-index: -3;
         transition: 0.3s;
     }
     .nav-menu.active{
