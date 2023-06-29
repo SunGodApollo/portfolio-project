@@ -31,7 +31,7 @@ const ProjectCardData = [
         imgsrc: treasureHunt,
         title: "Treasure Hunt",
         text: "A fun game-like application using React. A user has to pick a tile at random, if the user finds the gem, the user wins! If the user finds the bomb, however, the user loses.",
-        view: "url of live site here",
+        view: "https://treasure-hunt-9cyj.onrender.com/",
         source: "https://github.com/SunGodApollo/apolonio-treasure-hunt"
     },
     {
